@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(72.85deg, #D9547B, #F8AD48);
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.wrap {
+  margin: 0 auto 0 auto;
+  max-width: 1200px;
+  padding: 0 100px;
+}
+
+.wrap p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+form {
+  width: 100%;
+  border-bottom: 1.5px solid grey;
+  display: flex;
+}
+
+form a {
+  z-index: 10;
+}
+
+form img {
+  padding: 20px;
+  margin-top: 10%;
+}
+
+form span {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  opacity: 0%;
+  z-index: -1;
+}
+
+input {
+  padding: 20px;
+  font-size: 30pt;
+  border: none;
+  background: none;
+  color: white;
+  z-index: 10;
+  width: 90%;
+}
+
+input:focus {
+  outline: none;
+  z-index: 10;
+}
+
+.weather {
+  display: flex;
+  margin-top: 100px;
+}
+
+.first-column {
+  width: 33%;
+}
+
+#trait_dessus {
+  width: 400px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.first-column h2 {
+  font-size: 70px;
+}
+
+.temperature {
+  position: relative;
+}
+
+.temperature h1 {
+  font-size: 180px;
+}
+
+.temperature_content {
+  display: flex;
+  position: absolute;
+  bottom: 15%;
+  right: -1%;
+}
+
+.temperature_content img {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.second-column {
+  width: 33%;
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.third-column {
+  width: 33%;
+  padding-top: 5%;
+}
+
+.week ul {
+  display: flex;
+  margin-top: 150px;
+}
+
+.week li {
+  margin-right: 5%;
+}
+
+li:nth-of-type(1) {
+  padding: 20px 30px 20px 30px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  margin-top: -20px;
+}
+
+/*# sourceMappingURL=style.css.map */
