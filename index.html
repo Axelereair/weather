@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link type="text/css" rel="stylesheet" href="css/reset.css"/>
-		<link type="text/css" rel="stylesheet" href="css/general.css"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 		<title>Weather</title>
@@ -19,25 +19,47 @@
 			</div>	
 			<div class="weather">
 				<div class="first-column">
-					<p>Wind(gust) :<span></span>%</p>
-					<div id="trait_dessus"><hr></div>
-					<p>Sunrise : <span></span>km/h</p>
-					<div id="trait_dessus"><hr></div>
-					<p>Sunset : <span></span></p>
-					<div id="trait_dessus"><hr></div>
-					<p>Precipitation : <span></span></p>
-					<div id="trait_dessus"><hr></div>
-				</div>
-					<div class="city">
+					<div class="premier">
+						<section class="indication">
+							<p>Wind(gust)</p>
+						</section>
+						<section class="icones">
+							<p>:%</p> <img src="img/vent.png" alt="Wind icon">
+						</section>
 					</div>
+					<div class="deuxieme">
+						<section class="indication">
+							<p>Sunrise :</p>
+						</section>
+						<section class="icones">
+							<p>km/h <img src="img/soleil_levant.png" alt="SL icon"></p>
+						</section>
+					</div>
+					<div class="troisieme">
+						<section class="indication">
+							<p>Sunset :</p>
+						</section>
+						<section class="icones">
+							<img src="img/soleil_couchant.png" alt="SC icon">
+						</section>
+					</div>
+					<div class="quatrieme">
+						<section classe="indication">
+							<p>Precipitation :</p>
+						</section>
+						<section class="icones">
+							<img src="img/pluie_icone.png" alt="Wind icon">
+						</section>
+					</div>
+
 				</div>
 				<div class="second-column">
-				</div>
-				<div class="third-column">
+					<p>28°</p>
+					<img src="img/nuage_soleil.png">
 				</div>
 			</div>
 			<div class="week">
-				<ul>
+				<ul id="weekend">
 					<li>Today</li>
 					<li>Thursday</li>
 					<li>Friday</li>

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/*
+	Général
+*/
+body {
+  background: linear-gradient(72.85deg, #D9547B 0%, #F8AD48 100%);
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.wrap {
+  margin: 0 auto 0 auto;
+  max-width: 1200px;
+  padding: 0 100px;
+}
+
+.wrap p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.weather {
+  display: flex;
+  margin-top: 100px;
+}
+
+.first-column {
+  width: 50%;
+  float: left;
+}
+
+.second-column {
+  width: 50%;
+  text-align: center;
+  display: flex;
+}
+
+.second-column img {
+  width: 250px;
+  height: 250px;
+  transform: translat eY(-18vw);
+  margin-left: 300px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.second-column p {
+  font-size: 340px;
+  line-height: 340px;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+  margin-left: 28px;
+}
+
+.week {
+  margin: 0 auto;
+}
+
+.week ul {
+  display: flex;
+  margin-top: 150px;
+}
+
+.week li {
+  margin-right: 5%;
+}
+
+#week ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indication p {
+  border-bottom: 1px #FFFFFF;
+}
+
+.indication {
+  display: flex;
+  justify-content: space-between;
+}
+
+.premier {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
